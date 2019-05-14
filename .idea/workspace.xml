@@ -2,56 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cabab34e-e3b6-4b7c-8b51-e162bde45d02" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_11_0_201803080745_r.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_4_11_0_201803080745_r.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-config-server/aigou-config-server.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-config-server/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-config-server/src/main/java/cn/itsource/aigou/ConfigServerApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-config-server/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-service/src/main/java/cn/itsource/aigou/mapper/EmployeeMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-service/src/main/java/cn/itsource/aigou/service/IEmployeeService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-service/src/main/java/cn/itsource/aigou/service/impl/EmployeeServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-service/src/main/resources/bootstrap.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-zuul-gateway/src/main/java/cn/itsource/aigou/config/GlobalCorsConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-zuul-gateway/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou-plat-parent/plat-interface/plat-interface.iml" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-interface/plat-interface.iml" />
-      <change beforePath="$PROJECT_DIR$/aigou-plat-parent/plat-interface/pom.xml" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-interface/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou-plat-parent/plat-interface/src/main/java/cn/itsource/aigou/domain/Employee.java" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-interface/src/main/java/cn/itsource/aigou/domain/Employee.java" />
       <change beforePath="$PROJECT_DIR$/aigou-plat-parent/plat-interface/target/classes/cn/itsource/aigou/domain/Employee.class" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-interface/target/classes/cn/itsource/aigou/domain/Employee.class" />
-      <change beforePath="$PROJECT_DIR$/aigou-plat-parent/plat-service/plat-service.iml" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-service/plat-service.iml" />
-      <change beforePath="$PROJECT_DIR$/aigou-plat-parent/plat-service/pom.xml" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou-plat-parent/plat-service/src/main/java/cn/itsource/aigou/controller/LoginController.java" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-service/src/main/java/cn/itsource/aigou/controller/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/aigou-plat-parent/plat-service/src/main/resources/application.yml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/aigou-plat-parent/plat-service/target/classes/cn/itsource/aigou/controller/LoginController.class" afterPath="$PROJECT_DIR$/aigou-plat-parent/plat-service/target/classes/cn/itsource/aigou/controller/LoginController.class" />
-      <change beforePath="$PROJECT_DIR$/aigou-zuul-gateway/aigou-zuul-gateway.iml" afterPath="$PROJECT_DIR$/aigou-zuul-gateway/aigou-zuul-gateway.iml" />
-      <change beforePath="$PROJECT_DIR$/aigou-zuul-gateway/pom.xml" afterPath="$PROJECT_DIR$/aigou-zuul-gateway/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou-zuul-gateway/src/main/resources/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -621,12 +574,20 @@
       <workItem from="1557622449056" duration="617000" />
       <workItem from="1557665875457" duration="441000" />
       <workItem from="1557667281870" duration="1708000" />
-      <workItem from="1557796071497" duration="9297000" />
+      <workItem from="1557796071497" duration="9353000" />
     </task>
+    <task id="LOCAL-00001" summary="集成mybatis-plus，登录前后端联调">
+      <created>1557815427583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557815427583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15980000" />
+    <option name="totallyTimeSpent" value="16036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -673,6 +634,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="集成mybatis-plus，登录前后端联调" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成mybatis-plus，登录前后端联调" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

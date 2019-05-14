@@ -20,5 +20,11 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
+        <!--只是为了在实体类上加@TableName注解-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <version>3.1.1</version>
+        </dependency>
     </dependencies>
 </project>

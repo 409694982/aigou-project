@@ -1,0 +1,23 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: aigou-config-server:1299.com
+    prefer-ip-address: true
+spring:
+  #profiles:
+    #active: native #读取本地配置
+  application:
+    name: AIGOU-CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        #native:
+          #search-locations: F:\aigou-config\aigou-config #本地配置所在的目录
+        git:
+          uri: https://github.com/409694982/aigou-config.git
+          username: 409694982
+          password: zt6959209

@@ -2,58 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cabab34e-e3b6-4b7c-8b51-e162bde45d02" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__alibaba_fastjson_1_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/home.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/product-type.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/template/home.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/template/home/common-footer.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/template/home/common-header-top.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/template/home/common-header.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/template/home/common-link.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/template/home/common-nav.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/template/home/common-right-sidebar.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/template/product.type.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/common-interface.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/src/main/java/cn/itsource/common/client/GenerateStaticPageClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/src/main/java/cn/itsource/common/client/RedisClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/src/main/java/cn/itsource/common/domain/ModelAndPath.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-parent.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/common-service.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/CommonApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/controller/GenerateStaticPage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/controller/RedisController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/util/RedisUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/util/VelocityUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/resources/bootstrap.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou-product-parent/product-service/pom.xml" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou-product-parent/product-service/product-service.iml" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/product-service.iml" />
-      <change beforePath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/ProductApplication.java" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/ProductApplication.java" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,8 +46,8 @@
       <file leaf-file-name="ProductTypeController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/ProductTypeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="109" column="40" lean-forward="false" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
+            <state relative-caret-position="165">
+              <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
               <folding>
                 <element signature="e#3250#3251#0" expanded="true" />
                 <element signature="e#3306#3307#0" expanded="true" />
@@ -792,7 +741,7 @@
       <workItem from="1558054483377" duration="10711000" />
       <workItem from="1558102206818" duration="3518000" />
       <workItem from="1558140445527" duration="10971000" />
-      <workItem from="1558225900437" duration="66000" />
+      <workItem from="1558225900437" duration="431000" />
     </task>
     <task id="LOCAL-00001" summary="集成mybatis-plus，登录前后端联调">
       <created>1557815427583</created>
@@ -815,11 +764,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558019634256</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="品牌模块的增删改查">
+      <created>1558226081536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558226081536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56575000" />
+    <option name="totallyTimeSpent" value="56940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -870,7 +826,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="集成mybatis-plus，登录前后端联调" />
     <MESSAGE value="品牌模块的增删查" />
-    <option name="LAST_COMMIT_MESSAGE" value="品牌模块的增删查" />
+    <MESSAGE value="品牌模块的增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="品牌模块的增删改查" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1088,6 +1045,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1246,8 +1204,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/ProductTypeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="109" column="40" lean-forward="false" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
+        <state relative-caret-position="165">
+          <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
           <folding>
             <element signature="e#3250#3251#0" expanded="true" />
             <element signature="e#3306#3307#0" expanded="true" />

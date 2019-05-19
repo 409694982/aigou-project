@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" filepath="$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-parent.iml" filepath="$PROJECT_DIR$/basic-parent/basic-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-parent/common-interface/common-interface.iml" filepath="$PROJECT_DIR$/common-parent/common-interface/common-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-parent/common-parent.iml" filepath="$PROJECT_DIR$/common-parent/common-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-parent/common-service/common-service.iml" filepath="$PROJECT_DIR$/common-parent/common-service/common-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/aigou-plat-parent/plat-interface/plat-interface.iml" filepath="$PROJECT_DIR$/aigou-plat-parent/plat-interface/plat-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/aigou-plat-parent/plat-service/plat-service.iml" filepath="$PROJECT_DIR$/aigou-plat-parent/plat-service/plat-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/aigou-product-parent/product-interface/product-interface.iml" filepath="$PROJECT_DIR$/aigou-product-parent/product-interface/product-interface.iml" />

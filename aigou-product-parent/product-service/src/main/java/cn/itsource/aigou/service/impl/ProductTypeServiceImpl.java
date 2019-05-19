@@ -126,8 +126,8 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
 
     private void updateRedis(){
         //查询类型树
-        List<ProductType> productTypes = tree();
-        List<ProductType> list = getList();
+        List<ProductType> productTypes = loadTree();
+        List<ProductType> list = baseMapper.selectList(null);
         //转成json
         String jsonString = JSONArray.toJSONString(productTypes);
         String listStr = JSONArray.toJSONString(list);

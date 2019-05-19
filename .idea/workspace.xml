@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cabab34e-e3b6-4b7c-8b51-e162bde45d02" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_fastdfs_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/BitStatesUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/ClassUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/CodeGenerateUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/GlobalSetting.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/LetterUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/ProductStateConsts.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/PropertiesHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/StrUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/encrypt/DES.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/encrypt/MD5.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/controller/FileController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/util/FastDfsApiOpr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/resources/fdfs_client.conf" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/BrandController.java" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/BrandController.java" />
+      <change beforePath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/BrandServiceImpl.java" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/BrandServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/ProductTypeServiceImpl.java" afterPath="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/ProductTypeServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/common-parent/common-service/common-service.iml" afterPath="$PROJECT_DIR$/common-parent/common-service/common-service.iml" />
+      <change beforePath="$PROJECT_DIR$/common-parent/common-service/pom.xml" afterPath="$PROJECT_DIR$/common-parent/common-service/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,78 +62,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductTypeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductTypeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/ProductTypeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-              <folding>
-                <element signature="e#3250#3251#0" expanded="true" />
-                <element signature="e#3306#3307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IProductTypeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/IProductTypeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+            <state relative-caret-position="63">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductTypeServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/ProductTypeServiceImpl.java">
+      <file leaf-file-name="ProductType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-interface/src/main/java/cn/itsource/aigou/domain/ProductType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2205">
-              <caret line="122" column="26" lean-forward="false" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
+            <state relative-caret-position="-299">
+              <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-type.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/product-type.properties">
+      <file leaf-file-name="Brand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-interface/src/main/java/cn/itsource/aigou/domain/Brand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="141" lean-forward="false" selection-start-line="1" selection-start-column="141" selection-end-line="1" selection-end-column="141" />
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/home.properties">
+      <file leaf-file-name="ProductTypeServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/ProductTypeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="131" lean-forward="false" selection-start-line="2" selection-start-column="131" selection-end-line="2" selection-end-column="131" />
+            <state relative-caret-position="247">
+              <caret line="109" column="21" lean-forward="true" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelAndPath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-parent/common-interface/src/main/java/cn/itsource/common/domain/ModelAndPath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding>
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,8 +107,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -150,9 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aigou-zuul-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/aigou-config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/aigou-zuul-gateway/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/aigou-plat-parent/plat-service/pom.xml" />
         <option value="$PROJECT_DIR$/aigou-plat-parent/plat-service/src/main/java/cn/itsource/aigou/mapper/EmployeeMapper.java" />
         <option value="$PROJECT_DIR$/aigou-plat-parent/plat-interface/pom.xml" />
@@ -177,11 +157,9 @@
         <option value="$PROJECT_DIR$/aigou-zuul-gateway/src/main/java/cn/itsource/aigou/config/DocumentationConfig.java" />
         <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/IBrandService.java" />
         <option value="$PROJECT_DIR$/aigou-product-parent/product-interface/src/main/java/cn/itsource/aigou/domain/Brand.java" />
-        <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/BrandServiceImpl.java" />
         <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/cn/itsource/aigou/mapper/BrandMapper.xml" />
         <option value="$PROJECT_DIR$/aigou-product-parent/product-interface/src/main/java/cn/itsource/aigou/domain/ProductType.java" />
-        <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/BrandController.java" />
         <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/CommonApplication.java" />
         <option value="$PROJECT_DIR$/common-parent/common-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/common-parent/common-interface/pom.xml" />
@@ -189,7 +167,6 @@
         <option value="$PROJECT_DIR$/common-parent/common-interface/src/main/java/cn/itsource/common/client/RedisClient.java" />
         <option value="$PROJECT_DIR$/aigou-product-parent/product-service/pom.xml" />
         <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/ProductApplication.java" />
-        <option value="$PROJECT_DIR$/common-parent/common-service/pom.xml" />
         <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/util/RedisUtils.java" />
         <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/controller/GenetareStaticPage.java" />
         <option value="$PROJECT_DIR$/common-parent/common-interface/src/main/java/cn/itsource/common/domain/ModelAndPath.java" />
@@ -200,6 +177,12 @@
         <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/product-type.properties" />
         <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/ProductTypeController.java" />
         <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/IProductTypeService.java" />
+        <option value="$PROJECT_DIR$/aigou-config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/common-parent/common-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common-parent/common-service/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/BrandServiceImpl.java" />
         <option value="$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/ProductTypeServiceImpl.java" />
       </list>
     </option>
@@ -259,6 +242,9 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,20 +267,14 @@
               <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
               <item name="aigou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="aigou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
               <item name="aigou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -302,7 +282,7 @@
               <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
               <item name="aigou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -311,7 +291,7 @@
               <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
               <item name="aigou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -321,126 +301,62 @@
               <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
               <item name="aigou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aigou" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="aigou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aigou" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="aigou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aigou" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="aigou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="aigou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="aigou-zuul-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -504,17 +420,23 @@
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aigou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aigou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -532,11 +454,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JetBrains\IDEA-workspace\aigou-parent\aigou-parent\aigou-product-parent\product-service\src\main\resources" />
+      <recent name="D:\JetBrains\IDEA-workspace\aigou-parent\aigou-parent\basic-parent\basic-util\src\main\java\cn\itsource\aigou\util" />
       <recent name="D:\JetBrains\IDEA-workspace\aigou-parent\aigou-parent\common-parent\common-service\src\main\java\cn\itsource\common\util" />
+      <recent name="D:\JetBrains\IDEA-workspace\aigou-parent\aigou-parent\aigou-product-parent\product-service\src\main\resources" />
       <recent name="D:\JetBrains\IDEA-workspace\aigou-parent\aigou-parent\common-parent\common-service\src\main\resources" />
       <recent name="D:\JetBrains\IDEA-workspace\aigou-parent\aigou-parent\aigou-product-parent\product-service\src\main\java\cn\itsource\aigou\config" />
-      <recent name="D:\JetBrains\IDEA-workspace\aigou-parent\aigou-parent\basic-parent\basic-generator\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -741,7 +663,9 @@
       <workItem from="1558054483377" duration="10711000" />
       <workItem from="1558102206818" duration="3518000" />
       <workItem from="1558140445527" duration="10971000" />
-      <workItem from="1558225900437" duration="431000" />
+      <workItem from="1558225900437" duration="1107000" />
+      <workItem from="1558227841789" duration="894000" />
+      <workItem from="1558264724644" duration="8665000" />
     </task>
     <task id="LOCAL-00001" summary="集成mybatis-plus，登录前后端联调">
       <created>1557815427583</created>
@@ -771,11 +695,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558226081536</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="品牌模块的增删改查">
+      <created>1558226371255</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558226371255</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56940000" />
+    <option name="totallyTimeSpent" value="67175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -793,6 +724,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -802,7 +734,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28971255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2987897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -812,7 +744,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -834,63 +765,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generator/CodeGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1336">
-          <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-interface/src/main/java/cn/itsource/aigou/domain/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-core/src/main/java/cn/itsource/aigou/query/BaseQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-interface/src/main/java/cn/itsource/aigou/query/BrandQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-plat-parent/plat-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-plat-parent/plat-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="91" column="12" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="91" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/controller.java.vm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -925,13 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-zuul-gateway/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -977,13 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-interface/src/main/java/cn/itsource/aigou/domain/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1971">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/mapper/BrandMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -991,31 +851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/BrandServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/cn/itsource/aigou/mapper/BrandMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-interface/src/main/java/cn/itsource/aigou/domain/ProductType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1045,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,33 +903,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/common-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/util/RedisUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-592">
           <caret line="22" column="82" lean-forward="false" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/CommonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1122,36 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/common-interface/src/main/java/cn/itsource/common/domain/ModelAndPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/home.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="131" lean-forward="false" selection-start-line="2" selection-start-column="131" selection-end-line="2" selection-end-column="131" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,22 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/product-type.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="141" lean-forward="false" selection-start-line="1" selection-start-column="141" selection-end-line="1" selection-end-column="141" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1243">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/IProductTypeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -1194,22 +963,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/ProductTypeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/product-type.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2205">
-          <caret line="122" column="26" lean-forward="false" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
+        <state relative-caret-position="21">
+          <caret line="1" column="141" lean-forward="false" selection-start-line="1" selection-start-column="141" selection-end-line="1" selection-end-column="141" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/resources/home.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="131" lean-forward="false" selection-start-line="2" selection-start-column="131" selection-end-line="2" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-interface/src/main/java/cn/itsource/common/domain/ModelAndPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#347#348#0" expanded="false" />
+            <element signature="e#375#376#0" expanded="false" />
+            <element signature="e#417#418#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#525#526#0" expanded="false" />
+            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#629#630#0" expanded="false" />
+            <element signature="e#666#667#0" expanded="false" />
+            <element signature="e#699#700#0" expanded="false" />
+            <element signature="e#751#752#0" expanded="false" />
+            <element signature="e#795#796#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aigou-zuul-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aigou-config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/util/FastDfsApiOpr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/CommonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/cn/itsource/common/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1051">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/BitStatesUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/GlobalSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/StrUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1029">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/PropertiesHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/aigou/util/LetterUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="85" column="39" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/BrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-interface/src/main/java/cn/itsource/aigou/domain/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-interface/src/main/java/cn/itsource/aigou/domain/ProductType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/controller/ProductTypeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-          <folding>
-            <element signature="e#3250#3251#0" expanded="true" />
-            <element signature="e#3306#3307#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aigou-product-parent/product-service/src/main/java/cn/itsource/aigou/service/impl/ProductTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="109" column="21" lean-forward="true" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

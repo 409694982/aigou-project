@@ -26,12 +26,8 @@ public class BrandController {
     public AjaxResult save(@RequestBody Brand brand){
         try {
             if(brand.getId()!=null){
-                //修改时间为当前时间
-                brand.setUpdateTime(new Date().getTime());
                 brandService.updateById(brand);
             }else{
-                //创建时间为当前时间
-                brand.setCreateTime(new Date().getTime());
                 brandService.save(brand);
             }
             return AjaxResult.me().setMessage("对象操作成功！");

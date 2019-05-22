@@ -143,28 +143,45 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
 
     @Override
     public Long[] getIdsById(Long id) {
-        List<ProductType> productTypeList = getList();
-        //key为当前productType对象的id，value为他的pid,这要就能快速通过id找到父id
-        Map<Long, Long> idMap = new HashMap<>();
-        productTypeList.forEach(productType -> {
-            idMap.put(productType.getId(), productType.getPid());
-        });
-        //用来保存数据
-        List<Long> ids = new ArrayList<>();
-        ids.add(id);
-        Long pid = (Long) idMap.get(id);
-        ids.add(pid);
-        while (pid!=0){
-            pid = (Long) idMap.get(pid);
-            if (pid!=0){
-                ids.add(pid);
-            }
+//        List<ProductType> productTypeList = getList();
+//        //key为当前productType对象的id，value为他的pid,这要就能快速通过id找到父id
+//        Map<Long, Long> idMap = new HashMap<>();
+//        productTypeList.forEach(productType -> {
+//            idMap.put(productType.getId(), productType.getPid());
+//        });
+//        //用来保存数据
+//        List<Long> ids = new ArrayList<>();
+//        ids.add(id);
+//        Long pid = (Long) idMap.get(id);
+//        ids.add(pid);
+//        while (pid!=0){
+//            pid = (Long) idMap.get(pid);
+//            if (pid!=0){
+//                ids.add(pid);
+//            }
+//        }
+//        Long[] idArr = new Long[ids.size()];
+//        for (int i = 0; i < ids.size(); i++) {
+//            idArr[ids.size()-1-i] = ids.get(i);
+//        }
+//        return idArr;
+        ProductType productType = baseMapper.selectById(id);
+        //如path为".1.2.3."
+        String path = productType.getPath();
+        //path为"1.2.3."
+        path = path.substring(1);
+        //path为"1.2.3"
+        path = path.substring(0, path.lastIndexOf("."));
+        //分成String数组并返回
+        System.out.println("path+"+path);
+        //无法直接用.分割，因为.在正则表达式有特殊意义，要转义
+        String[] idsStr = path.split("\\.");
+        //转为Long[]
+        Long[] ids = new Long[idsStr.length];
+        for (int i = 0; i < idsStr.length; i++) {
+            ids[i] = Long.valueOf(idsStr[i]);
         }
-        Long[] idArr = new Long[ids.size()];
-        for (int i = 0; i < ids.size(); i++) {
-            idArr[ids.size()-1-i] = ids.get(i);
-        }
-        return idArr;
+        return ids;
     }
 
     private List<ProductType> getList(){

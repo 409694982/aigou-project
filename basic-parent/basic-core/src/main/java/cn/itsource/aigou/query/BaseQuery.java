@@ -9,8 +9,8 @@ package cn.itsource.aigou.query;
  */
 public class BaseQuery {
 
-    private Long page;
-    private Long size;
+    private Long page=1L;
+    private Long size=10L;
     private String keyword;
 
     public Long getPage() {

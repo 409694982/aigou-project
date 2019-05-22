@@ -1,5 +1,7 @@
 package cn.itsource.aigou.controller;
 
+import cn.itsource.aigou.domain.Sku;
+import cn.itsource.aigou.domain.Specification;
 import cn.itsource.aigou.service.IProductService;
 import cn.itsource.aigou.domain.Product;
 import cn.itsource.aigou.query.ProductQuery;
@@ -10,7 +12,9 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class ProductController {
@@ -39,13 +43,15 @@ public class ProductController {
 
     /**
     * 删除对象信息
-    * @param id
+    * @param ids
     * @return
     */
-    @RequestMapping(value="/product/{id}",method=RequestMethod.DELETE)
-    public AjaxResult delete(@PathVariable("id") Long id){
+    @RequestMapping(value="/product/{ids}",method=RequestMethod.DELETE)
+    public AjaxResult delete(@PathVariable("ids") String ids){
         try {
-            productService.removeById(id);
+            String[] idstr = ids.split(",");
+            List<String> list = Arrays.asList(idstr);
+            productService.removeByIds(list);
             return AjaxResult.me();
         } catch (Exception e) {
         e.printStackTrace();
@@ -60,6 +66,10 @@ public class ProductController {
         return productService.getById(id);
     }
 
+    @GetMapping("/product/ext/{id}")
+    public Product getExtById(@PathVariable("id") Long id){
+        return productService.getExtById(id);
+    }
 
     /**
     * 查看所有信息
@@ -80,7 +90,48 @@ public class ProductController {
     @RequestMapping(value = "/product/page",method = RequestMethod.POST)
     public PageList<Product> page(@RequestBody ProductQuery query)
     {
-        IPage<Product> productIPage = productService.page(new Page<Product>(query.getPage(), query.getSize()));
-        return new PageList<Product>(productIPage.getTotal(),productIPage.getRecords());
+        return productService.getByQuery(query);
+    }
+
+    /**
+     * 通过商品id获取显示属性的json字符串
+     * @param id
+     * @return
+     */
+    @GetMapping("/product/viewProperties/{id}")
+    public List<Specification> getViewProperties(@PathVariable("id") Long id){
+        return productService.getViewPropertiesById(id);
+    }
+
+    @PostMapping("/product/viewProperties")
+    public AjaxResult saveViewProperties(@RequestBody Map<String, Object> map){
+        try {
+            List<Specification> viewProperties = (List<Specification>) map.get("viewProperties");
+            Long productId = ((Integer) map.get("productId")).longValue();
+            productService.saveViewProperties(viewProperties,productId);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("新增错误，原因："+e.getMessage());
+        }
+    }
+
+    @GetMapping("/product/skuProperties/{id}")
+    public Map<String, Object> getSkuProperties(@PathVariable("id") Long id){
+        return productService.getSkuPropertiesById(id);
+    }
+
+    @PostMapping("/product/skuProperties")
+    public AjaxResult saveSkuProperties(@RequestBody Map<String, Object> map){
+        try {
+            List<Specification> skuProperties = (List<Specification>) map.get("skuProperties");
+            Long productId = ((Integer) map.get("productId")).longValue();
+            List<Map<String, Object>> skus = (List<Map<String, Object>>) map.get("skus");
+            productService.saveSkuProperties(skuProperties,productId,skus);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("新增错误，原因："+e.getMessage());
+        }
     }
 }

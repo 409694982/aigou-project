@@ -6,5 +6,5 @@ package cn.itsource.aigou.query;
  * @author zt
  * @since 2019-05-20
  */
-public class ProductQuery extends BaseQuery{
+public class ProductExtQuery extends BaseQuery{
 }

@@ -102,4 +102,14 @@ public class BrandController {
 //        IPage<Brand> brandIPage = brandService.page(new Page<Brand>(query.getPage(), query.getSize()));
 //        return new PageList<Brand>(brandIPage.getTotal(),brandIPage.getRecords());
     }
+
+    /**
+     * 通过类型id查询所有品牌
+     * @param productTypeId
+     * @return
+     */
+    @GetMapping("/brand/loadBrands/{productTypeId}")
+    public Map<String, Object> loadBrandsByProductTypeId(@PathVariable("productTypeId") Long productTypeId){
+        return brandService.loadBrandsByProductTypeId(productTypeId);
+    }
 }

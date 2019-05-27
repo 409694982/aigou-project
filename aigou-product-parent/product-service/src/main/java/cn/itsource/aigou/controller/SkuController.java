@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class SkuController {
@@ -82,5 +83,15 @@ public class SkuController {
     {
         IPage<Sku> skuIPage = skuService.page(new Page<Sku>(query.getPage(), query.getSize()));
         return new PageList<Sku>(skuIPage.getTotal(),skuIPage.getRecords());
+    }
+
+    /**
+     * 根据SKU下标和商品Id获取库存
+     * @param skuIndex
+     * @return
+     */
+    @PostMapping("/sku/loadAvailableStock")
+    public Integer loadAvailableStock(@RequestBody Map<String,Object> param){
+        return skuService.loadAvailableStock(param);
     }
 }

@@ -1,5 +1,6 @@
 package cn.itsource.aigou.controller;
 
+import cn.itsource.aigou.service.IProductService;
 import cn.itsource.aigou.service.IProductTypeService;
 import cn.itsource.aigou.domain.ProductType;
 import cn.itsource.aigou.query.ProductTypeQuery;
@@ -11,11 +12,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class ProductTypeController {
     @Autowired
     public IProductTypeService productTypeService;
+    @Autowired
+    public IProductService productService;
 
     /**
      * 保存和修改公用的
@@ -60,7 +64,6 @@ public class ProductTypeController {
         return productTypeService.getById(id);
     }
 
-
     /**
      * 查看所有信息
      * @return
@@ -89,6 +92,10 @@ public class ProductTypeController {
         return productTypeService.tree();
     }
 
+    /**
+     * 生成静态home
+     * @return
+     */
     @PostMapping("/page")
     public AjaxResult page(){
         try {
@@ -108,5 +115,15 @@ public class ProductTypeController {
     @GetMapping("/productType/ids/{id}")
     public Long[] getIdsById(@PathVariable("id") Long id){
         return productTypeService.getIdsById(id);
+    }
+
+    /**
+     * 跟进商品类型id查询同级和上级的所有
+     * @param productTypeId
+     * @return
+     */
+    @GetMapping("/productType/crumb")
+    public List<Map<String, Object>> getCrumb(Long productTypeId){
+        return productService.getCrumb(productTypeId);
     }
 }

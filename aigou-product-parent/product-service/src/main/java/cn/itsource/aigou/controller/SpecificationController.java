@@ -83,4 +83,29 @@ public class SpecificationController {
         IPage<Specification> specificationIPage = specificationService.page(new Page<Specification>(query.getPage(), query.getSize()));
         return new PageList<Specification>(specificationIPage.getTotal(),specificationIPage.getRecords());
     }
+
+    //获取
+    @RequestMapping(value = "/specification/productTypeId/{id}",method = RequestMethod.GET)
+    public List<Specification> getByProductTypeId(@PathVariable("id") Long productTypeId) {
+        return specificationService.getByProductTypeId(productTypeId);
+    }
+
+    /**
+     * 保存属性
+     * @param properties
+     * @return
+     */
+    @PostMapping("/specification/save")
+    public AjaxResult saveProperties(@RequestBody List<Specification> properties){
+        try {
+            for (Specification property : properties) {
+                System.out.println(property);
+            }
+            specificationService.saveProperties(properties);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("保存失败，原因是："+e.getMessage());
+        }
+    }
 }

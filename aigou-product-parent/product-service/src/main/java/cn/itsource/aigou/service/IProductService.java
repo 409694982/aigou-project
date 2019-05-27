@@ -31,4 +31,10 @@ public interface IProductService extends IService<Product> {
     Map<String, Object> getSkuPropertiesById(Long id);
 
     void saveSkuProperties(List<Specification> skuProperties, Long productId, List<Map<String, Object>> skus);
+
+    void onSale(List<Long> idList);
+
+    void offSale(List<Long> idList);
+
+    List<Map<String,Object>> getCrumb(Long productTypeId);
 }

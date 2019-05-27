@@ -13,7 +13,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.util.Date;
+import java.util.*;
 
 /**
  * <p>
@@ -52,5 +52,24 @@ public class BrandServiceImpl extends ServiceImpl<BrandMapper, Brand> implements
         String firstLetter = LetterUtil.getFirstLetter(brand.getName());
         brand.setFirstLetter(firstLetter);
         return super.updateById(brand);
+    }
+
+    /**
+     * 通过类型id查询所有品牌
+     * @param productTypeId
+     * @return
+     */
+    @Override
+    public Map<String, Object> loadBrandsByProductTypeId(Long productTypeId) {
+        List<Brand> brands = baseMapper.selectList(new QueryWrapper<Brand>().eq("product_type_id", productTypeId));
+        //使用Set来去重，TreeSet对字符串有自然排序
+        TreeSet<String> letters = new TreeSet<>();
+        for (Brand brand : brands) {
+            letters.add(brand.getFirstLetter());
+        }
+        Map<String, Object> map = new HashMap<>();
+        map.put("brands", brands);
+        map.put("letters", letters);
+        return map;
     }
 }

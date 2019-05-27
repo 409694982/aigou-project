@@ -10,7 +10,7 @@ import javax.servlet.MultipartConfigElement;
  * @author zt
  * @version V1.0
  * @className FileConfig
- * @description TODO
+ * @description 配置类
  * @date 2019/5/20 10:10
  */
 @SpringBootConfiguration

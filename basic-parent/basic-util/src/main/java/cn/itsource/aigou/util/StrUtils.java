@@ -10,27 +10,28 @@ import java.util.Random;
  */
 public class StrUtils {
     /**
-     * 把逗号分隔的字符串转换字符串数组
+     * 把传入的分隔符来分隔字符串转，换字符串数组
      *
      * @param str
+     * @param splicStr
      * @return
      */
-    public static String[] splitStr2StrArr(String str) {
+    public static String[] splitStr2StrArr(String str,String splicStr) {
         if (str != null && !str.equals("")) {
-            return str.split(",");
+            return str.split(splicStr);
         }
         return null;
     }
 
 
     /**
-     * 把逗号分隔字符串转换List的Long
+     * 把把传入的分隔符来分隔字符串，转换List的Long
      *
      * @param str
      * @return
      */
-    public static List<Long> splitStr2LongArr(String str) {
-        String[] strings = splitStr2StrArr(str);
+    public static List<Long> splitStr2LongArr(String str,String splicStr) {
+        String[] strings = splitStr2StrArr(str,splicStr);
         if (strings == null) return null;
 
         List<Long> result = new ArrayList<>();

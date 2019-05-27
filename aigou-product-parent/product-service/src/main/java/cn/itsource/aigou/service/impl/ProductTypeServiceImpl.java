@@ -3,12 +3,14 @@ package cn.itsource.aigou.service.impl;
 import cn.itsource.aigou.domain.ProductType;
 import cn.itsource.aigou.mapper.ProductTypeMapper;
 import cn.itsource.aigou.service.IProductTypeService;
+import cn.itsource.aigou.util.StrUtils;
 import cn.itsource.common.client.GenerateStaticPageClient;
 import cn.itsource.common.client.RedisClient;
 import cn.itsource.common.domain.ModelAndPath;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.ibatis.io.Resources;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -105,9 +107,27 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
 
     @Override
     public boolean save(ProductType entity) {
+        entity.setCreateTime(new Date().getTime());
+        //拼接path
         boolean result = super.save(entity);
         sychornizedOperate();
-        return result;
+        entity.setPath(getPath(entity));
+        boolean result2 = super.updateById(entity);
+        return result==true&&result2==true;
+    }
+
+    private String getPath(ProductType entity) {
+        Map<Long, Long> idMap = getIdMap();
+        Long pid = entity.getPid();
+        String path = "."+pid +"."+ entity.getId();
+        while (pid!=0){
+            pid = idMap.get(pid);
+            if (pid!=0){
+                path = "." +pid + path;
+            }
+        }
+        path += ".";
+        return path;
     }
 
     @Override
@@ -119,6 +139,7 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
 
     @Override
     public boolean updateById(ProductType entity) {
+        entity.setUpdateTime(new Date().getTime());
         boolean result = super.updateById(entity);
         sychornizedOperate();
         return result;
@@ -184,7 +205,7 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
         return ids;
     }
 
-    private List<ProductType> getList(){
+    private Map<Long, Long> getIdMap(){
         String listStr = redisClient.get(LIST);
         List<ProductType> productTypeList;
         if (StringUtils.isEmpty(listStr)){
@@ -193,6 +214,11 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
         }else {
             productTypeList = JSONArray.parseArray(listStr, ProductType.class);
         }
-        return productTypeList;
+        Map<Long, Long> idMap = new HashMap<>();
+        productTypeList.forEach(productType -> {
+            idMap.put(productType.getId(), productType.getPid());
+        });
+        return idMap;
     }
+
 }

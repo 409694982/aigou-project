@@ -7,6 +7,7 @@ import cn.itsource.aigou.domain.Product;
 import cn.itsource.aigou.query.ProductQuery;
 import cn.itsource.aigou.util.AjaxResult;
 import cn.itsource.aigou.util.PageList;
+import cn.itsource.aigou.util.StrUtils;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -132,6 +133,42 @@ public class ProductController {
         } catch (Exception e) {
             e.printStackTrace();
             return AjaxResult.me().setSuccess(false).setMessage("新增错误，原因："+e.getMessage());
+        }
+    }
+
+    /**
+     * 商品批量上架
+     * @param ids
+     * @return
+     */
+    @GetMapping("/product/onSale")
+    public AjaxResult onSale(String ids){
+        try {
+            //将ids字符串转成long的list集合
+            List<Long> idList = StrUtils.splitStr2LongArr(ids, ",");
+            productService.onSale(idList);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("上架失败，原因是："+e.getMessage());
+        }
+    }
+
+    /**
+     * 商品批量下架
+     * @param ids
+     * @return
+     */
+    @GetMapping("/product/offSale")
+    public AjaxResult offSale(String ids){
+        try {
+            //将ids字符串转成long的list集合
+            List<Long> idList = StrUtils.splitStr2LongArr(ids, ",");
+            productService.offSale(idList);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("上架失败，原因是："+e.getMessage());
         }
     }
 }

@@ -12,7 +12,7 @@
     <artifactId>common-service</artifactId>
 
     <dependencies>
-        <!--common-interface的依赖-->
+        <!--cn.itsource.common-interface的依赖-->
         <dependency>
             <groupId>cn.itsource</groupId>
             <artifactId>common-interface</artifactId>
